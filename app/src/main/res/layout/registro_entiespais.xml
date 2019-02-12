@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/registro">
+
+
+    <TextView
+        android:id="@+id/txtnombreRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:text="Nom"
+        />
+
+    <TextView
+        android:id="@+id/txtApellidoRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:text="@string/ApellidoUsuario_Registro"
+        />
+    <TextView
+        android:id="@+id/txtEmailRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:text="@string/emailUsuario_Registro"
+        />
+    <TextView
+        android:id="@+id/txtEntidaRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:text="@string/entidadUsuario_Registro"
+        />
+    <TextView
+        android:id="@+id/txtNifRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:text="@string/nifUsuario_Registro"
+        />
+
+    <TextView
+        android:id="@+id/txtPasswordRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:text="@string/passUsuario_Registro"
+        />
+
+    <TextView
+        android:id="@+id/txtConfPasswordRegistroRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:text="@string/passConfUsuario_Registro"
+        />
+
+
+
+
+
+
+</LinearLayout>
