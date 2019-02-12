@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Entiespais</string>
+    <string name="nombreUsuario_Registro">Nombre</string>
+    <string name="ApellidoUsuario_Registro">Apellido</string>
+    <string name="emailUsuario_Registro">Email</string>
+    <string name="entidadUsuario_Registro">Entidad</string>
+    <string name="nifUsuario_Registro">NIF</string>
+    <string name="passUsuario_Registro">Contraseña</string>
+    <string name="passConfUsuario_Registro">Confirmar Contraseña</string>
+    <string name="recordarUsuario_Registro">Recordar</string>
+    <string name="aceptarCondiciones_Registro">Aceptar condiciones de uso</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnIniciarsesion">Iniciar Sesión</string>
 </resources>
