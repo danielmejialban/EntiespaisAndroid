@@ -11,7 +11,7 @@
         android:id="@+id/txtnombreRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
+        android:textSize="22dp"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textColor="#ffffff"
@@ -20,10 +20,11 @@
         />
 
     <TextView
+        style=""
         android:id="@+id/txtApellidoRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
+        android:textSize="22dp"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textColor="#ffffff"
@@ -34,7 +35,7 @@
         android:id="@+id/txtEmailRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
+        android:textSize="22dp"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textColor="#ffffff"
@@ -45,7 +46,7 @@
         android:id="@+id/txtEntidaRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
+        android:textSize="22dp"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textColor="#ffffff"
@@ -56,7 +57,7 @@
         android:id="@+id/txtNifRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
+        android:textSize="22dp"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textColor="#ffffff"
@@ -80,7 +81,7 @@
         android:id="@+id/txtConfPasswordRegistroRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
+        android:textSize="22dp"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textColor="#ffffff"
@@ -89,8 +90,69 @@
         />
 
 
+    <!--LinearLayout Recordar Usuario-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxRecordarUsuario"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txtRecordarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="left"
+                android:text="@string/recordarUsuario_Registro"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    <!--LinearLayout Aceptar condiciones de uso-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <CheckBox
+            android:id="@+id/checkboxCondionesUso"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtCondicionesUso"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:gravity="left"
+            android:text="@string/aceptarCondiciones_Registro"
+            android:textSize="20dp" />
+
+    </LinearLayout>
 
 
+    <!--Botón entrar-->
+    <Button
+        android:id="@+id/btnEntrarRegistro"
+        android:layout_marginTop="50dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEntrar"/>
 
+    <!--Botón iniciar sesión-->
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_marginTop="10dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnIniciarsesion"/>
 
 </LinearLayout>
