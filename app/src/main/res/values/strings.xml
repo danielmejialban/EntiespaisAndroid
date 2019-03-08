@@ -11,4 +11,9 @@
     <string name="aceptarCondiciones_Registro">Aceptar condiciones de uso</string>
     <string name="btnEntrar">Entrar</string>
     <string name="btnIniciarsesion">Iniciar Sesión</string>
+    <string name="atividadesRequeridas">Actividades Requeridas</string>
+    <string name="nomActividad"></string>
+    <string name="nomCompeticion"></string>
+    <string name="nomEspacio"></string>
+    <string name="nomEquipo"></string>
 </resources>

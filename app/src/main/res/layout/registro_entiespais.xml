@@ -142,10 +142,12 @@
     <!--Botón entrar-->
     <Button
         android:id="@+id/btnEntrarRegistro"
+        android:layout_width="315dp"
+        android:layout_height="37dp"
         android:layout_marginTop="50dp"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:text="@string/btnEntrar"/>
+        android:background="@color/btnRegistroEntrar"
+        android:text="@string/btnEntrar"
+        android:textColor="@color/negro" />
 
     <!--Botón iniciar sesión-->
     <Button
